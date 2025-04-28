@@ -8,47 +8,42 @@ dependencies = ["ipykernel>=6.29.5", "pip>=25.0.1"]
 
 [project.optional-dependencies]
 lab-1 = [
-  "islp==0.4.0",
-  "numpy==2.2.4",
-  "pandas==2.2.3",
+  "numpy==2.0.2",
+  "pandas==2.2.2",
   "scikit-learn==1.6.1",
   "seaborn==0.13.2",
 ]
 lab-2 = [
   "dtreeviz==2.2.2",
-  "ipython==8.35.0",
-  "nbformat==5.10.4",
-  "numpy==2.2.4",
-  "pathlib==1.0.1",
-  "plotly==6.0.1",
+  "ipython",
+  "nbformat",
+  "numpy==2.0.2",
+  "pathlib",
+  "plotly==5.24.1",
   "pydotplus==2.0.2",
   "scikit-learn==1.6.1",
   "seaborn==0.13.2",
 ]
 lab-3 = [
-  "numpy==2.2.4",
-  "nbformat==5.10.4",
-  "pandas==2.2.3",
-  "plotly==6.0.1",
+  "numpy==2.0.2",
+  "nbformat",
+  "pandas==2.2.2",
+  "plotly==5.24.1",
   "scikit-learn==1.6.1",
 ]
-lab-4 = ["ipython==8.35.0", "openai==1.75.0", "python-dotenv==1.1.0"]
-lab-5 = [
-  "ipython==8.35.0",
-  "openai==1.75.0",
-  "python-dotenv==1.1.0",
-  "spacy==3.8.5",
-]
+lab-4 = ["ipython", "openai==1.75.0", "python-dotenv"]
+lab-5 = ["ipython", "openai==1.75.0", "python-dotenv", "spacy==3.8.5"]
 lab-6 = [
   "chromadb==1.0.5",
-  "ipython==8.35.0",
-  "numpy==2.2.4",
+  "ipython",
+  "numpy==2.0.2",
   "langchain==0.3.23",
   "langchain-community==0.3.21",
   "langchain-openai==0.3.14",
+  "pathlib",
   "openai==1.75.0",
   "pypdf==5.4.0",
-  "python-dotenv==1.1.0",
-  "requests==2.32.3",
+  "python-dotenv",
+  "requests",
   "tiktoken==0.9.0",
 ]
